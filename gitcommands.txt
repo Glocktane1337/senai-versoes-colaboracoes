@@ -1,5 +1,7 @@
 git init (creates .git folder in subdirectory in which you bashed in)
 
+git add . (adds alterations onto staging to be checked)
+
 git push (pushes your change into the remote directory of your github acc)
 
 git pull (pulls from your github acc into your machine)
@@ -10,3 +12,8 @@ git checkout "branch" (goes to branch)
 
 git checkout -b "tarefa/branch" (creates a branch)
 
+git remote add origin git@github.com:Gloctane1337/whateverproject.git (connects your local repo to github repo)
+
+git remote -v (views remote repo)
+
+.gitignore (tell git to not monitor said file)
